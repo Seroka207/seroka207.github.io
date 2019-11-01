@@ -186,7 +186,7 @@ var filters = {};
 $('.items').on( 'click', '.resimli', function() {
 
 
-  
+
 $( ".items" ).find('.chosen' ).removeClass("chosen");
 
 $( this ).addClass('chosen');
@@ -230,6 +230,8 @@ $( this ).addClass('selected');
 
 $(".champ").attr("style", "display:none");
 $(".items").attr("style", "display:block");
+$(".items1").attr("style", "display:block");
+$(".result").attr("style", "display:block");
 document.getElementById("grid").style.opacity=0;
 
 });
@@ -245,6 +247,11 @@ $( this ).addClass('selected');
 
 
 $(".champ").attr("style", "display:block");
+
+$(".items").attr("style", "display:none");
+$(".items1").attr("style", "display:none");
+$(".result").attr("style", "display:none");
+
 
 document.getElementById("grid").style.opacity=1;
 });

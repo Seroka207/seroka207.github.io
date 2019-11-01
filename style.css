@@ -90,9 +90,8 @@ top: 12%;}
 }
 
 .resimli{
-  border-style: none;
-  padding: 0;
   border: none;
+  padding: 0;
   background: none;
    cursor: pointer;
 }
@@ -101,6 +100,14 @@ top: 12%;}
    border-style: solid;
   border-width: 1px;
   border-color: gold;
+}
+
+.Iname{
+  margin-top: 4%;
+  width: 100%;
+  margin-right: 100%;
+ margin-left: 5%;
+ left: 5%;
 }
 
 
@@ -119,10 +126,16 @@ top: 12%;}
 
 
 .resultad{
+  float: left;
   display: block;
-  margin-left: auto;
+  margin-left: 5%;
   margin-right: auto;
-  width: 40%;
+  width: 20%;
+  border-style: solid;
+  border-color: gold;
+  border-width: 2px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .buton:focus {
@@ -159,6 +172,12 @@ border-color: black;
 
 }
 
+.items1{
+
+float: left;
+  margin-left: auto;
+}
+
 
 
 /* ---- button-group ---- */
@@ -184,7 +203,8 @@ border-color: black;
   max-width: 1000px;
   /* margin: auto; */
 margin-left: 20%;
-  
+ 
+ margin-top: 5.5%; 
 }
 
 /* clear fix */
@@ -243,7 +263,10 @@ margin-left: 20%;
 }
 
 .heading {
-  margin-top: 5%;
+  left: 44%;
+  float: none;
+  position: fixed;
+  margin-top: 2%;
   border-style: solid;
   border-width: 2px;
   border-color: white;
