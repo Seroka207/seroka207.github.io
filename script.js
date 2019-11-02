@@ -212,7 +212,9 @@ duo = document.getElementsByClassName("chosen");
 
 document.getElementById("resim").src = photos.English[0][combs.English[(duo[0].id).toString()][(duo[1].id).toString()]][1];
 
+document.getElementById("ItemName").innerHTML = combs.English[(duo[0].id).toString()][(duo[1].id).toString()];
 
+document.getElementById("desc").innerHTML = photos.English[0][combs.English[(duo[0].id).toString()][(duo[1].id).toString()]][0];
 
 
 });
@@ -228,12 +230,15 @@ duo = document.getElementsByClassName("chosen");
 
 document.getElementById("resim").src = photos.English[0][combs.English[(duo[0].id).toString()][(duo[1].id).toString()]][1];
 
+document.getElementById("ItemName").innerHTML = combs.English[(duo[0].id).toString()][(duo[1].id).toString()];
 
+document.getElementById("desc").innerHTML = photos.English[0][combs.English[(duo[0].id).toString()][(duo[1].id).toString()]][0];
 
 });
 
 
 
+var x = document.getElementsByTagName("BODY")[0];
 
 
 $('.heading').on( 'click', '.item', function() {
@@ -249,6 +254,13 @@ $(".items").attr("style", "display:block");
 $(".items1").attr("style", "display:block");
 $(".result").attr("style", "display:block");
 document.getElementById("grid").style.opacity=0;
+
+
+x.style.margin = "0";
+x.style.height = "100%";
+x.style.overflow = "hidden";
+
+
 
 });
 
@@ -269,7 +281,14 @@ $(".items1").attr("style", "display:none");
 $(".result").attr("style", "display:none");
 
 
+x.style.margin = "";
+x.style.height = "";
+x.style.overflow = "";
+
+
+
 document.getElementById("grid").style.opacity=1;
+
 });
 
 
