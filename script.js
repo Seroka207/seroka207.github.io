@@ -172,6 +172,22 @@ var photos = {
 
 
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos < currentScrollPos) {
+    document.getElementById("mode").style.top = "-500px";
+  } 
+
+  if (currentScrollPos == 0) {
+ document.getElementById("mode").style.top = "0";
+
+  }
+
+console.log(currentScrollPos);
+
+  prevScrollpos = currentScrollPos;
+}
 
 
 // init Isotope
