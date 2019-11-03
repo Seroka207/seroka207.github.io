@@ -132,21 +132,21 @@ top: 12%;}
 
 
 
-
+.result {
+margin-top: 12%;
+height: 75px;
+}
 
 .resultad{
-  left: 25%;
-  position: fixed;
-  float: left;
-  display: block;
-  margin-right: auto;
-  width: 10.8%;
-  border-style: solid;
-  border-color: gold;
+     width: 165px;
+    margin-top: 1%;
+
+    height: auto;
+    float: left;
+    border-style:solid;
   border-width: 2px;
-  margin-top: 18%;
-  margin-bottom: 2%;
-}
+  border-color: gold;
+  }
 
 .buton:focus {
   outline:0;
@@ -187,17 +187,11 @@ border-color: black;
 .items{
 
 
-float: left;
-  margin-left: auto;
-  margin-top: 25%;
 
 }
 
 .items1{
-
-float: left;
-  margin-left: auto;
-  margin-top: 44%;
+margin-top: 25%;
 }
 
 
@@ -226,7 +220,7 @@ float: left;
   /* margin: auto; */
 margin-left: 20%;
  
- margin-top: 5.5%; 
+ margin-top: -5%; 
 }
 
 /* clear fix */
@@ -305,30 +299,37 @@ margin-left: 20%;
  text-align: center;
   margin-top: 1%;
   margin-bottom: 0;
+  font-family: 'Teko', sans-serif;
+  font-size: 42px;
 }
 
 #desc {
-  margin-top: 0;
-  font-size: 140%;
-  width: 85%;
+height: 100%;
+    margin-top: -0.5%;
+    font-size: 140%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
 
 
+}
+
+.secondary {
+  /*position: fixed;*/
+  width: 687px;
+margin-top: 20%;
+    margin-left: 0%;
+}
 }
 
 .description
 {  
-   font-family: 'Teko', sans-serif;
-  border-style: solid;
-  border-width: 2px;
-  border-color: gold;
-  top: 37.8%;
-  left: 37%;
-  position: fixed;
-  background: black;
-  color: white;
-  margin:0px;
-  width:45%;
-  height: 24%;
+margin-left: 40%;
+height: 151px;
+  width: 100%;
+
+
+
 }
 
 .cost{
