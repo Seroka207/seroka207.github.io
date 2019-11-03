@@ -83,7 +83,7 @@ top: 12%;}
 }
 
 .sag
-{font-family: 'Bowlby One SC', cursive;;
+{font-family: 'Acme', sans-serif;
   font-weight: bold;
   background: #8cd790;
   color: black;
@@ -92,7 +92,7 @@ top: 12%;}
 }
 .sol
 {
-  font-family: 'Bowlby One SC', cursive;;
+  font-family: 'Acme', sans-serif;
 }
 
 .resimli{
@@ -250,7 +250,6 @@ margin-left: 20%;
 .buton {
   display: inline-block;
   padding: 0.5em 1.5em;
-  border-style: solid;
   border-width: 1px;
   border-color: white;
   border-style: none;
@@ -280,6 +279,8 @@ margin-left: 20%;
 
 .heading {
 
+
+z-index: 555;
   left: 44%;
   float: none;
   position: fixed;
