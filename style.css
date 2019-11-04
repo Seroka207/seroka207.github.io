@@ -8,6 +8,15 @@ html{
 
 }
 
+#header {
+
+font-size: 120%;
+ color: #41d3bd; 
+ float: left;
+ font-family: 'Acme', sans-serif;
+
+}
+
 body {
   background-color: #3b3b3b;
 background: rgb(0,0,0);
