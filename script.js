@@ -254,6 +254,7 @@ $(".items").attr("style", "display:block");
 $(".items1").attr("style", "display:block");
 $(".result").attr("style", "display:block");
 document.getElementById("grid").style.opacity=0;
+document.getElementById("header").style.display="none";
 
 
 x.style.margin = "0";
@@ -279,7 +280,7 @@ $(".champ").attr("style", "display:block");
 $(".items").attr("style", "display:none");
 $(".items1").attr("style", "display:none");
 $(".result").attr("style", "display:none");
-
+document.getElementById("header").style.display="block";
 
 x.style.margin = "";
 x.style.height = "";
